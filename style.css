@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+}
+/* header */
+.i1 img{
+    height: 10%;
+}
+#header{
+
+    
+    background-color:white;
+    display: flex;
+    color:black;
+}
+.name{
+    padding:20px;
+    width: 100%;
+}
+.name p{
+    font-family: 'Century Gothic';
+}
+.name h1{
+    font-family: 'Century Gothic';
+    font-size: 60px;
+}
+
+/* about section */
+
+#about{
+    background-size: 100% 100%;
+    color:black;
+    padding: 30px;
+}
+.ab{
+    display: flex;
+}
+.cont{
+    max-width: 50%;
+}
+.cont h1{
+  color:#E16F00;
+    font-family: 'Century Gothic';
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.cont p{
+  font-size:25px;
+    font-family: 'Century Gothic';
+}
+.photo{
+  
+  width: 100%;
+  padding-left:10px;
+}
+.photo img{
+    box-shadow: 5px 5px 5px black;
+}
+
+/* Certification */
+
+#certi{
+
+    
+    padding: 30px;
+  
+    color: black;
+}
+.ba{
+  display:flex;
+}
+.cer h1{
+  color:#E16F00;
+    font-size: 32px;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    text-decoration: underline;
+}
+.cer ul{ 
+  font-size:20px;
+  font-family: 'Century Gothic';
+  
+
+}
+.photo1{
+  height: 65%;
+  margin-right: 40px;
+  float:left;
+}
+
+
+/* Skills */
+
+#skills{
+
+    padding: 30px;
+    background-image: url("back.jpg");
+    background-size: 100% 100%;
+    color:black;
+}
+.skl progress{
+  padding: 25px;
+    width: 50%;
+    color: black;
+
+}
+.skl p{
+    font-family: 'Century Gothic';
+    font-size: 16px;
+}
+.img{
+  float:right;
+  width:30%;
+  height:50%;
+}
+
+/* Projects */
+
+#projects{
+
+    background-color: white;
+    padding: 30px;
+    color: black;
+}
+.pro h1{
+  color:#E16F00;
+    font-size: 32px;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    text-decoration: underline;
+}
+.pro ul{
+  font-size: 20px;
+    font-family: 'Century Gothic';
+    margin-left: 20px;
+
+}
+.img1{
+  float:left;
+  width:35% ;
+  height:10%;
+}
+
+/* Resume */
+
+
+
+#resume{
+    padding: 30px;
+    
+    color: black;
+}
+.res h1{
+  color:#E16F00;
+    font-size: 32px;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    text-decoration: underline;
+}
+.res .bttn{
+    display: flex;
+    border: 2px solid black;
+    font-family: 'Century Gothic';
+    width:200px;
+    background-color: white;
+    color: black;
+}
+.res .bttn:hover{
+    background: gray;
+    transition-duration: 0.5
+}
+.res p{
+    font-family: 'Century Gothic';
+}
+/* navigation bar */
+
+#side{
+    width:100%;
+    position: fixed;
+
+    background-color:#E16F00;
+    top: 0%;
+    height: 10%;
+}
+.navbar{
+  margin-left:20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.navbar a{
+
+    margin-left:20%;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color:black;
+    
+}
+.btn{
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    padding: 17.4px 0px;
+}
+.btn:hover{
+
+    background: rgb(145, 134, 134,0.75);
+
+    transition-duration: 0.5s;
+}
+/* Contact US */
+
+#contactus{
+
+    background-color:#ff8243;
+    color: black;
+    padding: 30px;
+}
+.contact h1{
+    font-size: 32px;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    text-decoration: underline;
+}
+.contact ul{
+    font-family: 'Century Gothic';
+    margin-left: 20px;
+
+}
+.contact .det{
+    display: flex;
+    font-family: 'Century Gothic';
+}
+/* Footer */
+
+#footer{
+    height: 10vh;
+    background-color:#ff8243;
+    color:black;
+}
